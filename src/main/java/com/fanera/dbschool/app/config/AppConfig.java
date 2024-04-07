@@ -1,4 +1,4 @@
-package com.fanera.dbschool.app;
+package com.fanera.dbschool.app.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
