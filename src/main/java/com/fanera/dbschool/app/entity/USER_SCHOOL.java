@@ -32,7 +32,7 @@ public class USER_SCHOOL implements UserDetails {
     @Column(name = "date_create")
     private Date dateCreateUser;
 
-    @ManyToMany(cascade = {CascadeType.ALL})
+    @ManyToMany(fetch = FetchType.EAGER,cascade = {CascadeType.ALL})
     @JoinTable(
             name = "user_school_role",
             joinColumns = {@JoinColumn(name = "id_user",referencedColumnName = "id")},
