@@ -1,0 +1,7 @@
+redis:
+  setting-connection:
+    host: 192.168.1.65
+    port: 6379
+    password: KOLOBOK
+
+    timeout-operation: 3600

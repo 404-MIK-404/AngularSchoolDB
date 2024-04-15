@@ -37,5 +37,10 @@ public class SecurityConfig {
         SECRET_KEY_CONF = Keys.hmacShaKeyFor(con);
     }
 
+    @Bean
+    public PasswordEncoder initPasswordEncode(){
+        return new BCryptPasswordEncoder();
+    }
+
 
 }
