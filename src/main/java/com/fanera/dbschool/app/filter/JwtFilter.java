@@ -1,6 +1,5 @@
 package com.fanera.dbschool.app.filter;
 
-import com.fanera.dbschool.app.entity.USER_SCHOOL;
 import com.fanera.dbschool.app.service.JwtService;
 import com.fanera.dbschool.app.service.UserSessionService;
 import com.fanera.dbschool.user.service.UserDetailsServiceImpl;

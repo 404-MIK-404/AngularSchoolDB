@@ -1,7 +1,6 @@
 package com.fanera.dbschool.app.service;
 
 import com.fanera.dbschool.app.config.SecurityConfig;
-import io.jsonwebtoken.Jwt;
 import io.jsonwebtoken.JwtException;
 import io.jsonwebtoken.Jwts;
 import jakarta.servlet.http.HttpServletRequest;
